@@ -149,6 +149,9 @@ namespace Parcial_Final
             horatxt.Clear();
         }
 
-      
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Remove(dataGridView1.CurrentRow);
+        }
     }
 }
